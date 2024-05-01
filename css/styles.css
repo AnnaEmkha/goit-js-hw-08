@@ -1,0 +1,14 @@
+ul {
+  list-style: none;
+  padding: 24px 156px;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.gallery-image:hover {
+  width: 376px;
+  height: 208px;
+}
