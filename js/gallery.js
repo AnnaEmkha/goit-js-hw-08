@@ -89,7 +89,7 @@ function createGallery(images) {
 
 function handleClick(event) {
   event.preventDefault();
-  if (event.target === event.currentTarget) {
+  if (event.target.nodeName !== 'IMG') {
     return;
   }
 
